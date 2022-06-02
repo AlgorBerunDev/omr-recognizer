@@ -15,25 +15,25 @@ def getExtremePoints(c, extreme):
 
 y=getExtremePoints(biggestCounters[0][0], 'bottom')[1]
 x=getExtremePoints(biggestCounters[0][0], 'right')[0]
-y=y+cordinatesOfReact[0][0][1]-8
-x=x+cordinatesOfReact[0][0][0]-2
+y=y+cordinatesOfReact[0][0][1]
+x=x+cordinatesOfReact[0][0][0]
 left_top_point = (x, y) # left-1
 
 y=getExtremePoints(biggestCounters[1][0], 'bottom')[1]
 x=getExtremePoints(biggestCounters[1][0], 'left')[0]
-y=y+cordinatesOfReact[1][0][1]-10
-x=x+cordinatesOfReact[1][0][0]-10
+y=y+cordinatesOfReact[1][0][1]
+x=x+cordinatesOfReact[1][0][0]
 right_top_point = (x, y) # right-2
 
 y=getExtremePoints(biggestCounters[3][0], 'top')[1]
 x=getExtremePoints(biggestCounters[3][0], 'left')[0]
-y=y+cordinatesOfReact[3][0][1]-18
-x=x+cordinatesOfReact[3][0][0]-10
+y=y+cordinatesOfReact[3][0][1]
+x=x+cordinatesOfReact[3][0][0]
 left_bottom_point = (x, y) # right-3
 
 y=getExtremePoints(biggestCounters[4][0], 'top')[1]
 x=getExtremePoints(biggestCounters[4][0], 'right')[0]
-y=y+cordinatesOfReact[4][0][1]-10
+y=y+cordinatesOfReact[4][0][1]
 x=x+cordinatesOfReact[4][0][0]
 right_bottom_point = (x, y) # left-2
 
