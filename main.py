@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 import matplotlib.image as mpimg
-from google.colab.patches import cv2_imshow
+# from google.colab.patches import cv2_imshow
 import imutils
 import math
 
